@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  klubovna:
+    image: klubovna
+    build:
+      context: .
+      dockerfile: klubovna\Dockerfile
